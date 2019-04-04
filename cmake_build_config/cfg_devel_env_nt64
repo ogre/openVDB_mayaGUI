@@ -1,0 +1,15 @@
+#bbcfg
+
+BOOST_ROOT=d:\dev\c_libs\boost\boost_1_66_0__vc15
+#BOOST_LIBRARYDIR=d:\dev\c_libs\boost\boost_1_66_0__vc15\stage\lib
+ZLIB_ROOT=d:/dev/c_libs/zlib-1.2.8/install
+BLOSC_ROOT=d:/dev/c_libs/cblosc/1.11.1/install_vc15
+TBB_ROOT=C:/Program Files/Autodesk/Maya2018
+GLEW_ROOT=d:/dev/c_libs/glew/2.0.0
+GLUT_ROOT=d:/dev/c_libs/glut-3.7.6-bin
+GLFW3_ROOT=d:/dev/c_libs/glfw/3.1.2
+#SEEXPR_ROOT=//bbcfg/pkgs/prod/seexpr/65b4e84/nt64
+
+@include "//bbcfg/pkgs/prod/openexr/2.2.0/${PLATFORM}_static/bbcfg"
+@include "//bbcfg/pkgs/prod/openvdb/5_0_0_4eed5d9_static/${PLATFORM}/bbcfg"
+@include "//bbcfg/pkgs/prod/maya_api/2018.3/${PLATFORM}/bbcfg"

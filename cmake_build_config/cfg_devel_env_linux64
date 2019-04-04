@@ -1,0 +1,15 @@
+#bbcfg
+
+BOOST_ROOT=/v/pkgs/boost/dep/1_61_0
+#GLEW_ROOT=/v/pkgs/glew/2018_03_12/glew-2.1.0
+#GLUT_ROOT=E:/dev/c_libs/glut-3.7.6-bin
+#SEEXPR_ROOT=/bbcfg/pkgs/prod/seexpr/65b4e84/linux64
+
+
+
+
+
+
+@include "//bbcfg/pkgs/prod/openexr/2.2.0/${PLATFORM}_static/bbcfg"
+@include "//bbcfg/pkgs/prod/openvdb/5_0_0_4eed5d9_static/${PLATFORM}/bbcfg"
+@include "//bbcfg/pkgs/prod/maya_api/2017/${PLATFORM}/bbcfg"
